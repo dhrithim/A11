@@ -1,0 +1,166 @@
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            body {
+                margin: 0; 
+                font-family: Arial, sans-serif; 
+            }
+
+            .header {
+                display: flex; 
+                flex-direction: column; 
+                align-items: center; 
+                background-color: rgb(211, 158, 45); 
+                padding: 20px; 
+                text-align: center; 
+            }
+
+            .header img {
+                width: 80px; 
+                height: 80px; 
+            }
+
+            .header h1 {
+                color: darkred; 
+                font-size: 1.5rem; 
+                margin: 10px 0; 
+            }
+
+            .header h2 {
+                font-size: 1.2rem; 
+                margin: 0; 
+            }
+
+            .header h2 span {
+                text-shadow: 2px 2px 4px darkred; 
+            }
+
+            nav {
+                background-color: darkred; 
+            }
+
+            nav ul {
+                display: flex; 
+                flex-direction: column; 
+                padding: 0; 
+                margin: 0; 
+                list-style: none; 
+                text-align: center; 
+            }
+
+            nav li {
+                margin: 10px 0; 
+            }
+
+            nav a {
+                color: white; 
+                text-decoration: none; 
+                font-size: 18px; 
+            }
+
+            nava a:hover {
+                color: yellow; 
+            }
+
+            .content {
+                padding: 20px; 
+            }
+
+            .content img {
+                max-width: 100%; 
+                height: auto; 
+            }
+
+            .ticket-packages {
+                margin-top: 20px; 
+                text-align: center; 
+            }
+
+            .ticket-packages p {
+                margin: 10px 0; 
+            }
+
+            .footer {
+                background-color: darkred; 
+                color: white; 
+                text-align: center; 
+                padding: 10px; 
+                position: fixed; 
+                bottom: 0; 
+                width: 100%; 
+            }
+
+            @media (min-width: 600px) {
+                .header {
+                    flex-direction: row; 
+                    justify-content: space-between; 
+                    text-align: left; 
+                }
+
+                .header h1 {
+                    font-size: 2rem; 
+                }
+
+                .header h2 {
+                    font-size: 1.5rem; 
+                }
+
+                nav ul {
+                    flex-direction: row; 
+                    justify-content: center; 
+                }
+
+                nav li {
+                    margin: 0 20px; 
+                }
+            }
+        </style>
+    </head>
+    <body>
+        <div style="display: flex; justify-content: center; gap: 50px; align-items: flex-start;">
+            <div style="width: 200px;">
+                <h1>Guest Speakers</h1>
+                <h4>October</h4>
+                <a href="http://www.brancaccio.com/">David Brancaccio</a>
+                <div>
+                    <img src="David-Headshot-.webp" alt="David Brancaccio Headshot" width="100" height="100">
+                </div>
+
+                <h4>November</h4>
+                <a href="https://shop.gracieabrams.com/?srsltid=AfmBOoqM5R0NpHg-YrKa5Y-TvjpZl6oJqHTeHBbewwZm4cMvSJ3Jsygr">Gracie Abrams</a>
+                <div>
+                    <img src="gracie-abrams.jpg" alt="Gracie Abrams" width="100" height="100">
+                </div>
+            </div>
+
+            <div style="width: 200px; margin-top: 100px">
+                <h4>December</h4>
+                <a href="https://www.taylorswift.com/">Taylor Swift</a>
+                <div>
+                    <img src="24taylor-notebook3-superJumbo.jpg" alt="Taylor Swift" width="100" height="100">
+                </div>
+
+                <h4>February</h4>
+                <a href="https://kamalaharris.com/">Kamala Harris</a>
+                <div>
+                    <img src="kamala.jpg" alt="Kamala Harris" width="100" height="100">
+                </div>
+            </div>
+        </div>
+
+        <div style="display: flex; justify-content: center; align-items: center; min-height: 10vh; margin-right:100px">
+            <div style="text-align: center;">
+                <a href="A11.html">Return to Home Page</a>
+            </div>
+        </div>
+
+        <div style="color: white; background-color: darkred;">
+            <p>&copy; November 19th Dhrithi Mogilisetty</p>
+        </div>
+
+        <div style="position: fixed; bottom: 0; width: 100%; color: white; background-color: darkred; text-align: center; padding: 10px;">
+            <p>&copy; November 19th Dhrithi Mogilisetty</p>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,136 @@
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            body {
+                margin: 0; 
+                font-family: Arial, sans-serif; 
+            }
+
+            .header {
+                display: flex; 
+                flex-direction: column; 
+                align-items: center; 
+                background-color: rgb(211, 158, 45); 
+                padding: 20px; 
+                text-align: center; 
+            }
+
+            .header img {
+                width: 80px; 
+                height: 80px; 
+            }
+
+            .header h1 {
+                color: darkred; 
+                font-size: 1.5rem; 
+                margin: 10px 0; 
+            }
+
+            .header h2 {
+                font-size: 1.2rem; 
+                margin: 0; 
+            }
+
+            .header h2 span {
+                text-shadow: 2px 2px 4px darkred; 
+            }
+
+            nav {
+                background-color: darkred; 
+            }
+
+            nav ul {
+                display: flex; 
+                flex-direction: column; 
+                padding: 0; 
+                margin: 0; 
+                list-style: none; 
+                text-align: center; 
+            }
+
+            nav li {
+                margin: 10px 0; 
+            }
+
+            nav a {
+                color: white; 
+                text-decoration: none; 
+                font-size: 18px; 
+            }
+
+            nava a:hover {
+                color: yellow; 
+            }
+
+            .content {
+                padding: 20px; 
+            }
+
+            .content img {
+                max-width: 100%; 
+                height: auto; 
+            }
+
+            .ticket-packages {
+                margin-top: 20px; 
+                text-align: center; 
+            }
+
+            .ticket-packages p {
+                margin: 10px 0; 
+            }
+
+            .footer {
+                background-color: darkred; 
+                color: white; 
+                text-align: center; 
+                padding: 10px; 
+                position: fixed; 
+                bottom: 0; 
+                width: 100%; 
+            }
+
+            @media (min-width: 600px) {
+                .header {
+                    flex-direction: row; 
+                    justify-content: space-between; 
+                    text-align: left; 
+                }
+
+                .header h1 {
+                    font-size: 2rem; 
+                }
+
+                .header h2 {
+                    font-size: 1.5rem; 
+                }
+
+                nav ul {
+                    flex-direction: row; 
+                    justify-content: center; 
+                }
+
+                nav li {
+                    margin: 0 20px; 
+                }
+            }
+        </style>
+    </head>
+    <body>
+        <h2 style="color: darkred;">Our Mission</h2>
+            <p>San Joaquin Valley Town Hall is a non-profit organization that is run by an all-volunteer board of directors. Our mission is to bring nationally and internationally renowned, thought-provoking speakers who inform, educate, and entertain our audience! As one of our members told us:</p>
+            <p class="indented">"Each year I give a ticket package to each of our family members. I think of it as the gift of knowledge...and that is priceless."</p>
+
+            <div style="display: flex; justify-content: center; align-items: center; min-height: 10vh; margin-right:100px; margin-top: 100px">
+                <div style="text-align: center;">
+                    <a href="A11.html">Return to Home Page</a>
+                </div>
+            </div>
+    
+            <div style="color: white; background-color: darkred;">
+                <p>&copy; November 19th Dhrithi Mogilisetty</p>
+            </div>
+    
+    </body>
+</html>
